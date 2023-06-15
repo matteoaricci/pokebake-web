@@ -1,4 +1,4 @@
-import {fetchPokemon} from "../_api";
+import {fetchPokemon} from "@/_api";
 
 export default async function Home() {
     const {data} = await fetchPokemon()
